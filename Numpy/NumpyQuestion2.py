@@ -8,5 +8,9 @@ from numpy.core.function_base import linspace
 import numpy as np
 
 #2、打印numpy的版本和配置说明
-print(np.__version__)
-print(np.show_config())
+#print(np.__version__)
+#print(np.show_config())
+
+#3、创建一个长度为10的空向量
+Z = np.zeros(10)
+print(Z)
